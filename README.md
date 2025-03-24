@@ -1,4 +1,3 @@
-# 1document_management_rag_qna-main
 Document Management and RAG-based Q&A Application
 📝 Overview
 This project is a Document Management and Retrieval-Augmented Generation (RAG) based Question-and-Answer application. It allows users to:
@@ -112,3 +111,4 @@ Commit changes (git commit -m 'Add new feature').
 Push to the branch (git push origin feature/new-feature).
 
 Open a pull request.
+
