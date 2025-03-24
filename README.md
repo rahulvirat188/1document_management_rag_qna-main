@@ -40,7 +40,7 @@ Clone the Repository
 bash
 Copy
 Edit
-git clone https://github.com/shraddhabsuresh/document_management_rag_qna.git
+git clone https://github.com/Rahulm/document_management_rag_qna.git
 cd document_management_rag_qna
 Create a Virtual Environment (Recommended)
 
