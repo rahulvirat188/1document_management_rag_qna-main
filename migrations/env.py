@@ -5,7 +5,7 @@ from sqlalchemy import Column, Integer, Text
 from pgvector.sqlalchemy import Vector
 
 # ✅ Load database URL from environment variable (or use default)
-DATABASE_URL = os.getenv("DATABASE_URL", "postgresql+asyncpg://postgres:Shraddha2014@localhost:5433/document_db")
+DATABASE_URL = os.getenv("DATABASE_URL", "postgresql+asyncpg://postgres:Rahulm@localhost:5433/document_db")
 
 # ✅ Create asynchronous database engine
 engine = create_async_engine(DATABASE_URL, echo=True)
@@ -29,7 +29,7 @@ class Document(Base):
 async def get_db():
     async with async_session() as session:
         yield session    ----app>database.py code
-[12:27 PM, 3/23/2025] Shraddha Suresh: from fastapi import FastAPI
+[12:27 PM, 3/23/2025] Rahul M: from fastapi import FastAPI
 from app.routes import api
 
 app = FastAPI()
@@ -40,7 +40,7 @@ app.include_router(api.router)
 @app.get("/")
 def root():
     return {"message": "Welcome to the Document Management API"} -----app>main.py code
-[12:28 PM, 3/23/2025] Shraddha Suresh: from logging.config import fileConfig
+[12:28 PM, 3/23/2025] Rahul M: from logging.config import fileConfig
 
 from sqlalchemy import engine_from_config
 from sqlalchemy import pool
